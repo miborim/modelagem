@@ -102,7 +102,7 @@ ALTER TABLE assembly_lines_employees ADD FOREIGN KEY (id_assembly_lines) REFEREN
 ```
 
 ## Explicação
-Tendo como objetivo o desenvolvimento de uma solução para os processos de treinamento nas fábricas de montagem da Dell, o banco de dados foi estruturado para armazenar informações sobre funcionários, materiais técnicos, produtos, linhas de montagem e suas interações.
+&nbsp;&nbsp;&nbsp;&nbsp;Tendo como objetivo o desenvolvimento de uma solução para os processos de treinamento nas fábricas de montagem da Dell, o banco de dados foi estruturado para armazenar informações sobre funcionários, materiais técnicos, produtos, linhas de montagem e suas interações.
 
 ### Tabelas do Banco de Dados:
 
@@ -173,4 +173,4 @@ Tendo como objetivo o desenvolvimento de uma solução para os processos de trei
 - A tabela `products` possui chaves estrangeiras para as tabelas `assembly_lines` e `manuals`, permitindo que cada produto esteja associado a uma linha de montagem específica e a um manual de montagem específico.
 - A tabela `assembly_lines_employees` possui chaves estrangeiras para as tabelas `employees` e `assembly_lines`, garantindo que cada funcionário esteja associado a uma linha de montagem específica e vice-versa.
 
-Essa estrutura de banco de dados visa facilitar o gerenciamento e a organização dos materiais de treinamento, bem como acompanhar o progresso dos funcionários no processo de montagem dos produtos Dell em diferentes linhas de montagem.
+&nbsp;&nbsp;&nbsp;&nbsp;Essa estrutura de banco de dados visa facilitar o gerenciamento e a organização dos materiais de treinamento, bem como acompanhar o progresso dos funcionários no processo de montagem dos produtos Dell em diferentes linhas de montagem.
