@@ -1,13 +1,14 @@
 <div align="center">
-<img src="../assets/inteli.png" width=50%>
+<img src="assets/inteli.png" width=20%>
 </div>
 
-# Modelagem do Banco de Dados
+<h1 align="center">Modelagem do Banco de Dados</h1>
+
 
 ## Contexto
 &nbsp;&nbsp;&nbsp;&nbsp;A modelagem de banco de dados foi realizada para o desenvolvimento da solução "Edellcation", uma aplicação _web_ de treinamento projetada para divulgar e disponibilizar materiais técnicos (manuais) relacionados ao processo de montagem de diferentes produtos da empresa Dell. Dessa forma, a modelagem atua na estruturação e organização dos dados necessários para a aplicação, fornecendo uma base sólida para seu funcionamento eficiente. As ferramentas utilizadas para a construção do banco de dados incluem _Render_, que oferece serviço de nuvem para hospedagem de aplicações, e _DBeaver_, uma ferramenta de administração de banco de dados. Além disso, o banco de dados foi desenvolvido de acordo com o SGBD (Sistema de Gerenciamento de Banco de Dados) PostgreSQL.
 
-## Modelagem de Banco de Dados
+## Modelagem do Banco de Dados
 &nbsp;&nbsp;&nbsp;&nbsp;No contexto do projeto, a modelagem referida por esta explicação (Figura 1), desenvolvida por meio do software _SQL Designer_, representa um diagrama de como os dados vão fluir para dentro e para fora do banco de dados, estabelecendo relações entre as entidades. Tem-se, então, a retratação da modelagem:
 
 <div align="center">
